@@ -30,11 +30,11 @@ const ProductCard = (props) => {
       <div className="product__content">
         <img className="product__img w-50" src={image01} alt="Pizza" />
         <h5>
-          <Link to={`/pizzas/Rs{id}`}>{title}</Link>
+          <Link to={`/pizzas/${id}`}>{title}</Link>
         </h5>
       </div>
       <div className="d-flex flex-column align-items-center justify-content-between">
-        <span className="product__price mb-2">{price} Rs </span>
+        <span className="product__price mb-2">Rs{price}</span>
         <button className="addTOCART__btn" onClick={addToCart}>
           Add to Cart
         </button>
