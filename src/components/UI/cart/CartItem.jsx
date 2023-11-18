@@ -37,7 +37,7 @@ const CartItem = ({ item, onClose }) => {
   };
 
   const handlePizzaSelection = () =>  {
-    navigate(`/pizzas/${id}`);
+    navigate(`/pizzas/Rs{id}`);
     onClose(); 
   }
 
@@ -50,7 +50,7 @@ const CartItem = ({ item, onClose }) => {
           <div>
             <h6 className="cart__product-title">{title}</h6>
             <p className=" d-flex align-items-center gap-5 cart__product-price">
-              {quantity}x <span>${price}</span>
+              {quantity}x <span>Rs{price}</span>
             </p>
             <div className="d-flex flex-column">
             {

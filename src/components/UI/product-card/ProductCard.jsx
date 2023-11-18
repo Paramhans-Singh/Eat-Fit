@@ -30,7 +30,7 @@ const ProductCard = (props) => {
       <div className="product__content">
         <img className="product__img w-50" src={image01} alt="Pizza" />
         <h5>
-          <Link to={`/pizzas/${id}`}>{title}</Link>
+          <Link to={`/pizzas/Rs{id}`}>{title}</Link>
         </h5>
       </div>
       <div className="d-flex flex-column align-items-center justify-content-between">
