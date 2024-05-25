@@ -4,7 +4,7 @@
 Welcome to Eat Fit, your ultimate online destination for ordering fast food with a healthy twist. Built using React Js, Eat Fit aims to provide a seamless and delightful food ordering experience. Whether you're craving burgers, pizzas, or salads, Eat Fit has got you covered!
 
 ## Eat Fit Website Preview 
-
+https://github.com/Paramhans-Singh/Eat-Fit/assets/101575816/a3690051-1a09-4762-8818-19025d39bc11
 
 ## Objectives
 - **User-Friendly Ordering**: Offer an easy-to-use platform for ordering fast food online.
